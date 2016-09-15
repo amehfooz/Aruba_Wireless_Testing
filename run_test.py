@@ -89,7 +89,7 @@ def test(filename, config):
 					api.getStatsCsvZipToFile(results.testId, statsfile)
 
 				if args.stats == True:
-					recordAPStats(filename + "-apstats-" str(i) + ".dat")
+					recordAPStats(filename + "-apstats-" + str(i) + ".dat")
 				break
 			except Exception as e:
 				print "Failure"
