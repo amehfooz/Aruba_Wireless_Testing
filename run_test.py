@@ -96,7 +96,6 @@ def test(filename, config):
 
 	session.stopSession()
 	session.httpDelete()
-# resetAPStats()
 
-#recordAPStats("temp.txt")
+test(FILENAME, CONFIG)
 
