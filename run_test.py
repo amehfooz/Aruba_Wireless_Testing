@@ -22,8 +22,8 @@ parser.add_argument("-n", "--filename", type=str, help='Base Filepath for Testru
 
 args = parser.parse_args()
 
-if args.run != None:
-	RUNS = args.run
+if args.runs != None:
+	RUNS = args.runs
 
 if args.config != None:
 	CONFIG = args.config
